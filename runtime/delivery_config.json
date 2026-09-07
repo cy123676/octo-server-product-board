@@ -1,0 +1,6 @@
+{
+  "enabled": false,
+  "reason": "exam group id and proctor are not confirmed yet; scan logs only, no external delivery",
+  "target": "",
+  "proctor_mention": ""
+}
