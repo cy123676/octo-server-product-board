@@ -1,0 +1,16 @@
+{
+  "run_id": "20260908T153001Z",
+  "started_at": "2026-09-08T15:30:01Z",
+  "finished_at": "2026-09-08T15:30:02Z",
+  "repo": "cy123676/octo-server-product-board",
+  "mode": "scan_only_no_external_delivery",
+  "delivery": {
+    "enabled": false,
+    "reason": "exam group id and proctor are not confirmed yet; scan logs only, no external delivery",
+    "target": "",
+    "proctor_mention": ""
+  },
+  "issue_count": 3,
+  "change_count": 0,
+  "changes": []
+}
