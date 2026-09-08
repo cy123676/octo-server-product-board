@@ -1,0 +1,74 @@
+{
+  "run_id": "20260908T140001Z",
+  "started_at": "2026-09-08T14:00:01Z",
+  "finished_at": "2026-09-08T14:00:02Z",
+  "repo": "cy123676/octo-server-product-board",
+  "mode": "scan_only_no_external_delivery",
+  "delivery": {
+    "enabled": false,
+    "reason": "exam group id and proctor are not confirmed yet; scan logs only, no external delivery",
+    "target": "",
+    "proctor_mention": ""
+  },
+  "issue_count": 0,
+  "change_count": 3,
+  "changes": [
+    {
+      "type": "issue_missing_from_api",
+      "issue": {
+        "number": 1,
+        "title": "Bug: WebSocket 握手失败时错误提示不明确，调用方无法区分 token、权限或服务异常",
+        "state": "open",
+        "labels": [
+          "module/auth",
+          "module/im",
+          "module/rbac",
+          "priority/P1",
+          "status/new",
+          "type/bug"
+        ],
+        "updated_at": "2026-09-03T07:42:08Z",
+        "comments": 0,
+        "html_url": "https://github.com/cy123676/octo-server-product-board/issues/1"
+      }
+    },
+    {
+      "type": "issue_missing_from_api",
+      "issue": {
+        "number": 2,
+        "title": "Agent runtime 离线时 Bot 被 @ 后应返回明确状态提示",
+        "state": "open",
+        "labels": [
+          "module/agent",
+          "module/im",
+          "priority/P1",
+          "status/prd-draft",
+          "type/feature"
+        ],
+        "updated_at": "2026-09-03T08:23:15Z",
+        "comments": 4,
+        "html_url": "https://github.com/cy123676/octo-server-product-board/issues/2"
+      }
+    },
+    {
+      "type": "issue_missing_from_api",
+      "issue": {
+        "number": 3,
+        "title": "Bot API register/heartbeat 失败时返回稳定机器可读错误分类",
+        "state": "open",
+        "labels": [
+          "module/agent",
+          "module/api",
+          "module/auth",
+          "module/im",
+          "priority/P1",
+          "status/prd-draft",
+          "type/feature"
+        ],
+        "updated_at": "2026-09-03T08:35:24Z",
+        "comments": 4,
+        "html_url": "https://github.com/cy123676/octo-server-product-board/issues/3"
+      }
+    }
+  ]
+}
