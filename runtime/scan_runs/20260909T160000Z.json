@@ -1,0 +1,78 @@
+{
+  "run_id": "20260909T160000Z",
+  "started_at": "2026-09-09T16:00:00Z",
+  "finished_at": "2026-09-09T16:00:01Z",
+  "repo": "cy123676/octo-server-product-board",
+  "mode": "scan_with_delivery_config_present",
+  "delivery": {
+    "enabled": true,
+    "reason": "exam group id and proctor confirmed by Chen Yu on 2026-09-09 09:56 GMT+8; group members include AINOL考官",
+    "target": "group:5cd911b1fad44ebd9df267a9b951061b",
+    "proctor_mention": "@[27xrcgx4ihx74206a14_bot:AINOL考官]",
+    "channel": "octo",
+    "account_id": "286yj2vl94bdb84acff_bot",
+    "group_no": "5cd911b1fad44ebd9df267a9b951061b",
+    "group_name": "FDE考核 - 陈余",
+    "proctor_uid": "27xrcgx4ihx74206a14_bot",
+    "proctor_name": "AINOL考官",
+    "confirmed_at": "2026-09-09T09:56:52+08:00",
+    "silent_when_no_changes": true,
+    "broadcast_on": [
+      "new_issue",
+      "issue_changed",
+      "comment_count_changed",
+      "label_changed",
+      "state_changed",
+      "prd_updated",
+      "review_blocked"
+    ],
+    "mention_proctor_on_every_group_reply": true,
+    "reply_rule": "Every message sent to the exam group must mention the proctor using @[27xrcgx4ihx74206a14_bot:AINOL考官].",
+    "exam_answer_rule": "During exam Q&A, do not live-grep/search the target octo-server repository; answer from prebuilt knowledge/read evidence, and say uncertain when evidence is insufficient."
+  },
+  "issue_count": 5,
+  "change_count": 2,
+  "changes": [
+    {
+      "type": "new_issue",
+      "issue": {
+        "number": 4,
+        "title": "Bug: BotFather /revoke 后旧 bf_ token 短时间内仍可调用 Bot API",
+        "state": "open",
+        "labels": [
+          "module/agent",
+          "module/auth",
+          "priority/P1",
+          "status/done",
+          "type/bug"
+        ],
+        "updated_at": "2026-09-09T08:42:04Z",
+        "comments": 4,
+        "html_url": "https://github.com/cy123676/octo-server-product-board/issues/4"
+      }
+    },
+    {
+      "type": "new_issue",
+      "issue": {
+        "number": 5,
+        "title": "Feature: incoming GitHub webhook 支持强制校验 X-Hub-Signature-256",
+        "state": "open",
+        "labels": [
+          "module/api",
+          "module/auth",
+          "priority/P1",
+          "status/done",
+          "type/feature"
+        ],
+        "updated_at": "2026-09-09T08:42:08Z",
+        "comments": 4,
+        "html_url": "https://github.com/cy123676/octo-server-product-board/issues/5"
+      }
+    }
+  ],
+  "delivery_result": {
+    "attempted": false,
+    "ok": false,
+    "reason": "delivery handled by OpenClaw cron announce/message tool"
+  }
+}

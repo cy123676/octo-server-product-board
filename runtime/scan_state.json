@@ -1,9 +1,39 @@
 {
   "repo": "cy123676/octo-server-product-board",
-  "last_scan_at": "2026-09-09T04:00:01Z",
-  "last_run_id": "20260909T040000Z",
-  "last_change_count": 0,
+  "last_scan_at": "2026-09-09T16:00:01Z",
+  "last_run_id": "20260909T160000Z",
+  "last_change_count": 2,
   "issues": {
+    "5": {
+      "number": 5,
+      "title": "Feature: incoming GitHub webhook 支持强制校验 X-Hub-Signature-256",
+      "state": "open",
+      "labels": [
+        "module/api",
+        "module/auth",
+        "priority/P1",
+        "status/done",
+        "type/feature"
+      ],
+      "updated_at": "2026-09-09T08:42:08Z",
+      "comments": 4,
+      "html_url": "https://github.com/cy123676/octo-server-product-board/issues/5"
+    },
+    "4": {
+      "number": 4,
+      "title": "Bug: BotFather /revoke 后旧 bf_ token 短时间内仍可调用 Bot API",
+      "state": "open",
+      "labels": [
+        "module/agent",
+        "module/auth",
+        "priority/P1",
+        "status/done",
+        "type/bug"
+      ],
+      "updated_at": "2026-09-09T08:42:04Z",
+      "comments": 4,
+      "html_url": "https://github.com/cy123676/octo-server-product-board/issues/4"
+    },
     "3": {
       "number": 3,
       "title": "Bot API register/heartbeat 失败时返回稳定机器可读错误分类",
